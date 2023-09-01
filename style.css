@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+    background: hsl(0, 0%, 98%);
+}
+
+h3, h4{
+    color: hsl(234, 12%, 34%);
+}
+
+small{
+    color: hsl(229, 6%, 66%);
+    font-size: 0.8rem;
+}
+
+p{
+    color: hsl(229, 6%, 66%);
+}
+
+.main-container{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.header p{
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.534);
+}
+
+.header  h3{
+    font-size: 1.5rem;
+}
+
+.header small{
+    text-align: center;
+    margin-top: 8px;
+}
+
+.top-down-container{
+    display: flex;
+    flex-direction: column;
+    margin-top: -100px;
+}
+
+.cards-container{
+    display: flex;
+    flex-direction: row;
+    margin-top: 150px;
+    margin-left: 88px;
+}
+
+/* Card One Starts Here */
+.card-one{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    margin: 3%;
+    width: 300px;
+    height: 230px;
+    border-radius: 10px;
+    padding: 0.3px;
+    box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+    -webkit-box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+    -moz-box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+}
+
+.card-one .top-line{
+    background: hsl(180, 62%, 55%);
+    width: 98%;
+    padding: 3px;
+    border-radius: 154px 154px 154px 154px / 100px 100px 30px 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.card-one .content{
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.card-one .content .img{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+/* Card One Ends Here */
+
+
+/* Card Two Starts Here */
+.card-two{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    margin: 3%;
+    width: 300px;
+    height: 230px;
+    border-radius: 10px;
+    padding: 0.3px;
+    box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+    -webkit-box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+    -moz-box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+}
+
+.card-two .top-line{
+    background: hsl(0, 78%, 62%);
+    width: 98%;
+    padding: 3px;
+    border-radius: 154px 154px 154px 154px / 100px 100px 30px 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.card-two .content{
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.card-two .content .img{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+/* Card Two Ends Here */
+
+
+/* Card Three Starts Here */
+.card-three{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    margin: 3%;
+    width: 300px;
+    height: 230px;
+    border-radius: 10px;
+    padding: 0.3px;
+    box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+    -webkit-box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+    -moz-box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+}
+
+.card-three .top-line{
+    background: hsl(34, 97%, 64%);
+    width: 98%;
+    padding: 3px;
+    border-radius: 154px 154px 154px 154px / 100px 100px 30px 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.card-three .content{
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.card-three .content .img{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+/* Card Three Ends Here */
+
+/* Card Four Starts Here */
+.card-four{
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    margin: 3%;
+    width: 300px;
+    height: 230px;
+    border-radius: 10px;
+    padding: 0.3px;
+    box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+    -webkit-box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+    -moz-box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+}
+
+.card-four .top-line{
+    background: hsl(212, 86%, 64%);
+    width: 98%;
+    padding: 3px;
+    border-radius: 154px 154px 154px 154px / 100px 100px 30px 10px;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.card-four .content{
+    padding: 15px;
+    margin-top: 10px;
+}
+
+.card-four .content .img{
+    margin-top: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+/* Card Four Ends Here */
+
+/* Resposnsiveness Starts Here */
+@media only screen and (max-width: 390px){
+    .header p{
+        font-size: 1rem;
+        color: rgba(0, 0, 0, 0.534);
+    }
+    .header  h3{
+        font-size: 1rem;
+    }
+    .header small{
+        text-align: center;
+        margin-top: 8px;
+        font-size: 0.4rem;
+    }
+    .cards-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        margin-left: 55px;
+    }
+    .top-down-container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .card-one{
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        margin: 3%;
+        width: 230px;
+        height: 200px;
+        border-radius: 10px;
+        padding: 0.3px;
+        box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+        -webkit-box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+        -moz-box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+    }
+    .card-two{
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        margin: 3%;
+        width: 230px;
+        height: 200px;
+        border-radius: 10px;
+        padding: 0.3px;
+        box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+        -webkit-box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+        -moz-box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+    }
+    .card-three{
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        margin: 3%;
+        width: 230px;
+        height: 200px;
+        border-radius: 10px;
+        padding: 0.3px;
+        box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+        -webkit-box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+        -moz-box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+    }
+    .card-four{
+        display: flex;
+        flex-direction: column;
+        background: #fff;
+        margin: 3%;
+        width: 230px;
+        height: 200px;
+        border-radius: 10px;
+        padding: 0.3px;
+        box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+        -webkit-box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+        -moz-box-shadow: -1px 2px 7px 0px rgba(0,0,0,0.43);
+    }
+}
+/* Resposnsiveness Ends Here */
+
+
